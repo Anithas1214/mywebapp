@@ -9,3 +9,5 @@ jobs:
       name: Check out code 
     - name: Check out code 
       run: echo hello world
+    - name: index.html content
+      run: cat index.html  
